@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <title>しょーごログ中級</title>
+    <!-- 必要なメタタグ -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <!-- グーグルフォント -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <!-- スライダー　CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <!-- 自分の作ったCSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-sp.css">
+  </head>
+
+  <body>
+    <!-- ナビ -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" width="47" height="47" class="d-inline-block align-top" alt="ブランド">
+          <h3>ユアコーディング</h3>
+        </a>
+        <!-- スマホのナビボタン -->
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav-sp" aria-controls="navbarNav" aria-expanded="false" aria-label="ナビゲーションの切替">
+          <span class="navbar-toggler-icon"></span>
+        </button>   
+        <!-- PCナビゲーション -->
+        <div class="collapse navbar-collapse bg-white" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#feature">特徴</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#price">価格</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">お問い合わせ</a>
+            </li>
+          </ul>
+          <button type="button" class="btn nav-btn text-nowrap">
+            <a class="b2" href="#contact">お問い合わせ</a>
+          </button>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+
+      <!-- スマホナビゲーション -->
+      <div class="collapse bg-white" id="navbarNav-sp">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">特徴</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">価格</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link b2" href="#contact">お問い合わせ</a>
+          </li>
+        </ul>
+      </div><!-- /スマホナビゲーション -->
+    </nav> 
+
+    <!-- メイン -->
+    <section class="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 flex-text">
+            <div>
+              <h1>コーディングの手間を <br> 最小に、デザインに注力 <br> する助けに</h1>
+              <p>ユアコーディングはコーディングに <br> 特化したフリーランス <br> デザインに注力されたい方の <br> 助けになります</p>
+              <button type="button" class="btn text-nowrap">
+                <a class="b2" href="#contact">お問い合わせ</a>
+              </button>
+            </div>
+          </div>
+          <div class="col-sm-6 main-right">
+            <img src="img/main.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- 特徴 -->
+    <section class="feature" id="feature">
+      <div class="feature-title">
+        <h1>ユアコーディング3つの特徴</h1>
+        <h4>FEATURE</h4>
+      </div>
+
+      <div class="feature-1 container">
+        <div>
+          <h2>高速コーディング</h2>
+        </div>
+        <div class="row fadein">
+          <div class="col-sm-6">
+            <img src="img/feature01.png" alt="">
+          </div>
+          <div class="col-sm-6 flex-text">
+            <div>
+              <h3>コーディングに特化したフリーランスのため、<br> スピード感を持った開発が可能。</h3>
+              <p>開発は常にスピードとの勝負です。<br> ユアコーディングはコーディングに特化しているため、<br> 素早く納品することで、クライアントがデザインに注力 <br> する助けとなります。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="feature-2 container">
+        <div>
+          <h2>高品質</h2>
+        </div>
+        <div class="row fadein">
+          <div class="col-sm-6">
+            <img src="img/feature02.png" alt="">
+          </div>
+          <div class="col-sm-6 flex-text">
+            <div>
+              <h3>正しいマークアップで、<br> 内部SEOに強いコーディングを <br> デフォルトで行います。</h3>
+              <p>ユアコーディングでは、<br> 「予測しやすい」「再利用しやすい」<br> 「保守しやすい」「拡張しやすい」と言った設計をもとに <br> きちんとコーディングを行うため、納品後も安心です。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="feature-3 container">
+        <div>
+          <h2>迅速なレスポンス</h2>
+        </div>
+        <div class="row fadein">
+          <div class="col-sm-6">
+            <img src="img/feature03.png" alt="">
+          </div>
+          <div class="col-sm-6 flex-text">
+            <div>
+              <h3>原則いただいたメッセージは、<br> 業務時間内であれば6時間以内に <br> お返しいたします。</h3>
+              <p>連絡を返さないフリーランスが多い中、<br> ユアコーディングでは定期的な進捗報告など、<br> 社会人としての基本を踏まえて仕事を行なって <br> おります。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 価格 -->
+    <section class="price fadein" id="price">
+      <div class="price-title">
+        <h1>価格</h1>
+        <h4>PRICE</h4>
+      </div>
+      <table class="table table-bordered">
+        <tbody>
+          <tr>
+            <th scope="row">HTMLコーディングトップページ</th>
+            <td>30.000円〜</td>
+          </tr>
+          <tr>
+            <th scope="row">HTMLコーディング下層1ページ</th>
+            <td>10.000円〜</td>
+          </tr>
+          <tr>
+            <th scope="row">HTML+WordPressトップページ</th>
+            <td>55.000円〜</td>
+          </tr>
+          <tr>
+            <th scope="row">HTML+WordPress下層1ページ</th>
+            <td>15.000円〜</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="p">＊詳細な価格はページや仕様によって異なります</p>
+    </section>
+    
+    <!-- FAQ -->
+    <section class="FAQ fadein">
+      <div class="FAQ-title">
+        <h1>よくある質問</h1>
+        <h4>FAQ</h4>
+      </div>
+      <div class="accordion" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="card">
+          <div class="card-header" role="tab" id="headingOne">
+            <h5 class="mb-0">
+              <a class="link-dark text-decoration-none d-block p-3 m-n3" data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="true" aria-controls="collapseOne">
+                デザインから一貫してお願いすることは可能でしょうか
+              </a>
+            </h5>
+          </div><!-- /.card-header -->
+          <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              ユアコーディングはコーディングに特化したサービスですので、デザインからお受けすることは基本的にありません。 ただデザインを行う際は提携しているデザイナーと連携して対応させていただきますので、別途ご連絡ください。
+            </div><!-- /.card-body -->
+          </div><!-- /.collapse -->
+        </div><!-- /.card -->
+        <div class="card">
+          <div class="card-header" role="tab" id="headingTwo">
+            <h5 class="mb-0">
+              <a class="collapsed link-dark text-decoration-none d-block p-3 m-n3" data-toggle="collapse" href="#collapseTwo" role="button" aria-expanded="false" aria-controls="collapseTwo">
+                WordPressのカスタマイズをお願いすることも可能でしょうか？
+              </a>
+            </h5>
+          </div><!-- /.card-header -->
+          <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              可能です。ただECサイトなどの場合は構築難易度や工数の関係で綿密にヒアリングさせていただきたく思います。
+            </div><!-- /.card-body -->
+          </div><!-- /.collapse -->
+        </div><!-- /.card -->
+        <div class="card">
+          <div class="card-header" role="tab" id="headingThree">
+            <h5 class="mb-0">
+              <a class="collapsed link-dark text-decoration-none d-block p-3 m-n3" data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false" aria-controls="collapseThree">
+                コーディングのスピード感が知りたい
+              </a>
+            </h5>
+          </div><!-- /.card-header -->
+          <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              HTMLレスポンシブ込み5ページで1週間、10ページで2週間、WordPressサイト5ページで2週間、10ページで3週間が目安に なります。
+            </div><!-- /.card-body -->
+          </div><!-- /.collapse -->
+        </div><!-- /.card -->
+      </div><!-- /#accordion -->
+    </section>
+
+    <!-- ブログ -->
+    <section class="blog fadein">
+      <h1>ブログ</h1>
+      <h4>BLOG</h4>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/blog3/austin-distel-wawEfYdpkag-unsplash.png" class="card-img-top" alt="カード1の画像">
+              <div class="card-body">
+                <h5 class="card-title">サイトをリニューアルオープンしました。</h5>
+              </div>
+              <div class="card-footer">
+                2020.07.07
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/blog1/dylan-gillis-KdeqA3aTnBY-unsplash.png" class="card-img-top" alt="カード2の画像">
+              <div class="card-body">
+                <h5 class="card-title">ユアコーディングではデザイナーの方を 広く募集しています。</h5>
+              </div>
+              <div class="card-footer">
+                2020.07.07
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/blog2/brooke-cagle-g1Kr4Ozfoac-unsplash.png" class="card-img-top" alt="カード3の画像">
+              <div class="card-body">
+                <h5 class="card-title">WebサイトでSEO内部施策に適したコー ディングでどれぐらいサイトが早くなるの か検証してみました</h5>
+              </div>
+              <div class="card-footer">
+                2020.07.07
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 製作実績 -->
+    <section class="works fadein">
+      <div class="works-title">
+        <h1>制作実績</h1>
+        <h4>WORKS</h4>
+      </div>
+
+      <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="img/digital-marketing-1433427_1280/digital-marketing-1433427_1280.png" class="card-img-top" alt="カードの画像">
+              <div class="card-body">
+                <p class="card-text">株式会社サンプル様採用サイトのコーデ ィングを行いました！</p>
+                <p class="card-text">
+                  採用技術：jQuery,Bootstrap4 <br> 実装期間：2週間 <br> 担当コーダー：石井
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="img/hal-gatewood-tZc3vjPCk-Q-unsplash/hal-gatewood-tZc3vjPCk-Q-unsplash.png" class="card-img-top" alt="カードの画像">
+              <div class="card-body">
+                <p class="card-title">株式会社サンプル様採用サイトのコーデ ィングを行いました！</p>
+                <p class="card-text">
+                  採用技術：jQuery,Bootstrap4 <br> 実装期間：2週間 <br> 担当コーダー：石井
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="img/digital-marketing-1433427_1280/digital-marketing-1433427_1280.png" class="card-img-top" alt="カードの画像">
+              <div class="card-body">
+                <p class="card-title">株式会社サンプル様採用サイトのコーデ ィングを行いました！</p>
+                <p class="card-text">
+                  採用技術：jQuery,Bootstrap4 <br> 実装期間：2週間 <br> 担当コーダー：石井
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="img/arnel-hasanovic-MNd-Rka1o0Q-unsplash/arnel-hasanovic-MNd-Rka1o0Q-unsplash.png" class="card-img-top" alt="カードの画像">
+              <div class="card-body">
+                <p class="card-title">株式会社サンプル様採用サイトのコーデ ィングを行いました！</p>
+                <p class="card-text">
+                  採用技術：jQuery,Bootstrap4 <br> 実装期間：2週間 <br> 担当コーダー：石井
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="img/digital-marketing-1433427_1280/digital-marketing-1433427_1280.png" class="card-img-top" alt="カードの画像">
+              <div class="card-body">
+                <p class="card-title">株式会社サンプル様採用サイトのコーデ ィングを行いました！</p>
+                <p class="card-text">
+                  採用技術：jQuery,Bootstrap4 <br> 実装期間：2週間 <br> 担当コーダー：石井
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="img/arnel-hasanovic-MNd-Rka1o0Q-unsplash/arnel-hasanovic-MNd-Rka1o0Q-unsplash.png" class="card-img-top" alt="カードの画像">
+              <div class="card-body">
+                <p class="card-title">株式会社サンプル様採用サイトのコーデ ィングを行いました！</p>
+                <p class="card-text">
+                  採用技術：jQuery,Bootstrap4 <br> 実装期間：2週間 <br> 担当コーダー：石井
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- お問い合わせ -->
+    <section class="contact" id="contact">
+      <div class="contact-title">
+        <h1>お問い合わせ</h1>
+        <h4>CONTACT</h4>
+        <p>コーディングの人出が足りないとき、<br> あなたの力になります</p>
+      </div>
+      <form>
+        <div">
+          <label for="exampleInputPassword1" class="form-label">お名前　<span class="badge">必須</span></label>
+          <input class="form-control name" id="exampleInputPassword1">
+        </div>
+        <div">
+          <label for="exampleInputEmail1" class="form-label">メールアドレス　<span class="badge">必須</span></label>
+          <input type="email" class="form-control email" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div">
+          <label for="exampleFormControlTextarea1" class="form-label">お問い合わせ内容　<span class="badge">必須</span></label>
+          <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" onclick="clickBtn1()">
+          <label class="form-check-label" for="exampleCheck1">プライバシーポリシーに同意する</label>
+        </div>
+        <button id="b1" type="submit" class="btn btn-primary">送信する</button>
+      </form>
+    </section>
+
+    <!-- フッター -->
+    <footer>
+      <h3>ユアコーディング</h3>
+      <a href="">プライバシーポリシー</a>
+      <a href="">個人商取引法に基づく表記</a> <br>
+      <small class="text-muted">©ユアコーディング, All Rights Reserved.</small>
+    </footer>
+
+
+    
+    <!-- オプションのJavaScript -->
+    <!-- 最初にPopper.js、次にBootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <!-- スライダー　JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!-- 自分のJS -->
+    <script src="js/swiper.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/btn.js"></script>
+  </body>
+</html>
