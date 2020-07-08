@@ -355,18 +355,17 @@
         <h4>CONTACT</h4>
         <p>コーディングの人出が足りないとき、<br> あなたの力になります</p>
       </div>
-      <form>
-        <div">
+      <form class="formrun" action="https://form.run/api/v1/r/4kwsxxuw6lxzbxodkx4y3w4y" method="post">        <div">
           <label for="exampleInputPassword1" class="form-label">お名前　<span class="badge">必須</span></label>
-          <input class="form-control name" id="exampleInputPassword1">
+          <input name="お名前" class="form-control name" id="exampleInputPassword1">
         </div>
         <div">
           <label for="exampleInputEmail1" class="form-label">メールアドレス　<span class="badge">必須</span></label>
-          <input type="email" class="form-control email" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <input name="メールアドレス" type="email" class="form-control email" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
         <div">
           <label for="exampleFormControlTextarea1" class="form-label">お問い合わせ内容　<span class="badge">必須</span></label>
-          <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+          <textarea name="お問い合わせ" class="form-control" id="exampleFormControlTextarea1"></textarea>
         </div>
         <div class="form-check">
           <input type="checkbox" class="form-check-input" id="exampleCheck1" onclick="clickBtn1()">
@@ -398,5 +397,7 @@
     <script src="js/swiper.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js/btn.js"></script>
+    <!-- フォーム -->
+    <script src="https://sdk.form.run/js/v2/formrun.js"></script>
   </body>
 </html>
