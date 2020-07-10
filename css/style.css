@@ -290,9 +290,12 @@ p {
   box-shadow: 0px 3px 6px #00000029;
 }
 
-.contact form .email, .contact form .name {
+.contact form .name {
   background: #EEFBFB;
-  margin-bottom: 25px;
+}
+
+.contact form .email {
+  background: #EEFBFB;
 }
 
 .contact form textarea {
@@ -301,6 +304,7 @@ p {
 }
 
 .contact form .form-label {
+  margin-top: 25px;
   font-size: 16px;
   letter-spacing: 0;
   line-height: 1.7;
@@ -325,6 +329,10 @@ p {
   padding: 8px 16px;
   background: #0C449B;
   border-radius: 10px;
+}
+
+.contact form .warn-text {
+  color: red;
 }
 
 .contact form .btn {

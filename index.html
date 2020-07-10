@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/slider.css">
     <!-- 自分の作ったCSS -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style-sp.css">
+    <link rel="stylesheet" href="css/style-sp.css">=
   </head>
 
   <body>
@@ -359,23 +359,27 @@
         <h4>CONTACT</h4>
         <p>コーディングの人出が足りないとき、<br> あなたの力になります</p>
       </div>
-      <form class="formrun" action="https://form.run/api/v1/r/4kwsxxuw6lxzbxodkx4y3w4y" method="post">        <div">
+      <form class="formrun" action="https://form.run/api/v1/r/4kwsxxuw6lxzbxodkx4y3w4y" method="post">        
+        <div">
           <label for="exampleInputPassword1" class="form-label">お名前　<span class="badge">必須</span></label>
-          <input name="お名前" class="form-control name" id="exampleInputPassword1">
+          <input name="お名前" class="form-control name" id="exampleInputPassword1" data-formrun-required>
+          <div class="warn-text" data-formrun-show-if-error="お名前">お名前を入力してください</div>
         </div>
         <div">
           <label for="exampleInputEmail1" class="form-label">メールアドレス　<span class="badge">必須</span></label>
-          <input name="メールアドレス" type="email" class="form-control email" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <input name="メールアドレス" type="text" data-formrun-type="email" class="form-control email" id="exampleInputEmail1" aria-describedby="emailHelp" data-formrun-required>
+          <div class="warn-text" data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
         </div>
         <div">
           <label for="exampleFormControlTextarea1" class="form-label">お問い合わせ内容　<span class="badge">必須</span></label>
-          <textarea name="お問い合わせ" class="form-control" id="exampleFormControlTextarea1"></textarea>
+          <textarea name="お問い合わせ" class="form-control" id="exampleFormControlTextarea1" data-formrun-required></textarea>
+          <div class="warn-text" data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div>
         </div>
         <div class="form-check">
           <input type="checkbox" class="form-check-input" id="exampleCheck1" onclick="clickBtn1()">
           <label class="form-check-label" for="exampleCheck1">プライバシーポリシーに同意する</label>
         </div>
-        <button id="b1" type="submit" class="btn btn-primary">送信する</button>
+        <button id="b1" type="submit" class="btn btn-primary" data-formrun-error-text="未入力の項目があります">送信する</button>
       </form>
     </section>
 

@@ -249,15 +249,18 @@ p {
     margin: 0 auto;
     background: white;
     box-shadow: 0px 3px 6px #00000029;
-    .email, .name {
+    .name {
       background: #EEFBFB;
-      margin-bottom: 25px;
+    }
+    .email {
+      background: #EEFBFB;
     }
     textarea {
       height: 180px;
       background: #EEFBFB;
     }  
     .form-label {
+      margin-top: 25px;
       font-size: 16px;
       letter-spacing: 0;
       line-height: 1.7;   
@@ -279,6 +282,9 @@ p {
       padding: 8px 16px;
       background: #0C449B;
       border-radius: 10px;
+    }
+    .warn-text {
+      color: red;
     }
     .btn {
       margin: 0 auto;
