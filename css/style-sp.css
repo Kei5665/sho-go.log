@@ -26,8 +26,11 @@
   .feature .container {
     width: 1060px;
   }
-  .table {
+  .price .table {
     width: 926px;
+  }
+  .price .table th {
+    width: 30%;
   }
   .accordion {
     width: 907px;
@@ -54,6 +57,18 @@
   .feature img {
     width: 100%;
   }
+  .price .table {
+    text-align: center;
+  }
+  .price .table th, .price .table td {
+    display: block;
+  }
+  .price .table th {
+    border-bottom: 1px solid #dee2e6;
+  }
+  .price .table td {
+    padding: 20px 10px;
+  }
   footer {
     padding: 10px 0;
   }
@@ -70,6 +85,12 @@
     font-size: 20px;
   }
   p {
+    font-size: 14px;
+  }
+  .accordion h5 {
+    font-size: 18px;
+  }
+  .accordion .card-body {
     font-size: 14px;
   }
 }

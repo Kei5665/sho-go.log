@@ -30,8 +30,13 @@
       width: 1060px;
     }
   }
-  .table {
-    width: 926px;
+  .price {
+    .table {
+      width: 926px;
+      th {
+        width: 30%;
+      }
+    }
   }
   .accordion {
     width: 907px;
@@ -63,6 +68,20 @@
       width: 100%;
     }
   }
+  .price {
+    .table {
+      text-align: center;
+      th,td {
+        display: block;
+      }
+      th {
+        border-bottom: 1px solid rgb(222, 226, 230,);
+      }
+      td {
+        padding: 20px 10px;
+      }
+    }
+  }
   footer {
     padding: 10px 0;
     small,h3 {
@@ -81,5 +100,13 @@
   }
   p {
     font-size: 14px;
+  }
+  .accordion {
+    h5 {
+     font-size: 18px;
+   }
+   .card-body {
+     font-size: 14px;
+   }
   }
 }
